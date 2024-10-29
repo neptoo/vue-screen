@@ -83,6 +83,8 @@ let provincesText = [
   "台湾",
 ];
 
+const mapCenter = [103.289603, 35.2544921875];
+
 // 浅色系
 let borderColor = "#fff";
 let chinaColor = "#7fa0dd";
@@ -164,7 +166,7 @@ export default {
             show: true,
             map: name,
             zoom: 4.5,
-            center: [104.989603, 35.2544921875],
+            center: mapCenter,
             roam: true,
             label: {
               normal: {
@@ -445,7 +447,7 @@ export default {
         if (name == "world") {
           mychart.setOption({
             geo: {
-              center: [103.289603, 35.2544921875],
+              center: mapCenter,
               // 设置最小缩放至 & 最大缩放到
               scaleLimit: {
                 min: 4.5,
