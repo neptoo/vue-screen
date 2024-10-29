@@ -1,16 +1,17 @@
 <template>
   <div id="app">
-    <h1>Hello Screen</h1>
+    <ScreenMap />
   </div>
 </template>
 
 <script>
-
+import ScreenMap from "./components/ScreenMap.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-  }
-}
+    ScreenMap,
+  },
+};
 </script>
 
 <style>
