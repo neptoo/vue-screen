@@ -37,4 +37,4 @@ npm run serve
 
 ## Blog 博客
 
-如果有更多细节问题，可以参考我的博客：使用Vue和ECharts实现世界地图和二级地图下钻
+如果有更多细节问题，可以参考我的博客：[使用Vue和ECharts实现世界地图和二级地图下钻](https://neptoo.github.io/2024/vue%E5%92%8Cecharts%E5%AE%9E%E7%8E%B0%E4%B8%96%E7%95%8C%E5%9C%B0%E5%9B%BE%E4%B8%8B%E9%92%BB/)
