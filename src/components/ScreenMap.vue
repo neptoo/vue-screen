@@ -104,12 +104,7 @@ let hoverTextColor = "#000";
 export default {
   name: "ScreenMap",
   data() {
-    return {
-      listGreen: [],
-      listYellow: [],
-      listRed: [],
-      listGray: [],
-    };
+    return {};
   },
   mounted() {
     this.initMap();
